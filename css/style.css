@@ -3338,14 +3338,15 @@ body .theme-button-one:hover {
 
 
 .partners-section {
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url(../images/logo/BG1.jpeg);
-  background-size: contain;
-  
-  padding: 50px;
+  padding: 20px 50px 20px 50px;
 }
 
 .partners-section h3 {
   text-align: center;
-  color: white;
+  color: black;
 }
+
+sl-carousel-item img {
+  height: 86px;
+}
+
