@@ -3375,3 +3375,17 @@ sl-carousel-item img {
   font-weight: 700;
   margin-bottom: 5px;
 }
+
+.call_btn, .whatsapp {
+  position: fixed;
+  right: 3px;
+  z-index: 1000;
+}
+
+.whatsapp {
+  top: 43%;
+}
+
+.call_btn {
+  top: calc(43% + 51px)!important;
+}
