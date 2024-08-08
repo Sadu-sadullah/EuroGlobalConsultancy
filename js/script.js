@@ -35,7 +35,7 @@ document.getElementById('form')
                 btn.textContent = 'SEND';
                 Swal.fire({
                   title: "Success!",
-                  text: "The Form has been sent! We will get back to you shortly!",
+                  text: "The email has been sent! We will get back to you shortly!",
                   icon: "success"
                 });
                 document.forms[0].reset();
