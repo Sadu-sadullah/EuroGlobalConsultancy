@@ -3109,19 +3109,6 @@ body .theme-button-one:hover {
   z-index: 1;
 }
 
-.inner-box {
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 8px -2px !important;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.service-block .inner-box {
-  position: relative;
-  background-color: #fff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
 .grid .service-block .content-box {
   min-height: 220px;
   height: 220px;
@@ -3386,4 +3373,14 @@ sl-carousel-item img {
 
 .call_btn {
   top: calc(43% + 51px)!important;
+}
+
+.feature-block, .service-block, .service-block-two {
+  position: relative;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.course_section .service-block, .why-choose-us-two .content-column .sec-title, p {
+  margin-bottom: 20px;
 }
