@@ -3199,7 +3199,7 @@ body .theme-button-one:hover {
 }
 
 .course_section {
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 #name, #phone {
@@ -3382,4 +3382,16 @@ sl-carousel-item img {
 
 .course_section .service-block, .why-choose-us-two .content-column .sec-title, p {
   margin-bottom: 20px;
+}
+
+.list-faq {
+  list-style-type: circle;
+}
+
+.list-faq li {
+  list-style-position: inside;
+}
+
+.faq_section{
+  padding: 30px 0;
 }
