@@ -11,18 +11,19 @@
 
   $(document).on("ready", function () {
 
-    jQuery("#nanogallery2").nanogallery2( {
+    jQuery("#nanogallery2").nanogallery2({
       // ### gallery settings ### 
-      thumbnailHeight:  150,
-      thumbnailWidth:   150,
-      itemsBaseURL:     'https://nanogallery2.nanostudio.org/samples/',
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
+      // Remove itemsBaseURL as you're using absolute URLs
+      // itemsBaseURL: 'https://nanogallery2.nanostudio.org/samples/',
       
       // ### gallery content ### 
       items: [
-          { src: 'berlin1.jpg', srct: 'berlin1_t.jpg', title: 'Berlin 1' },
-          { src: 'berlin2.jpg', srct: 'berlin2_t.jpg', title: 'Berlin 2' },
-          { src: 'berlin3.jpg', srct: 'berlin3_t.jpg', title: 'Berlin 3' }
-        ]
+        { src: 'https://example.com/images/berlin1.jpg', srct: 'https://example.com/images/berlin1_t.jpg', title: 'Berlin 1' },
+        { src: 'https://example.com/images/berlin2.jpg', srct: 'https://example.com/images/berlin2_t.jpg', title: 'Berlin 2' },
+        { src: 'https://example.com/images/berlin3.jpg', srct: 'https://example.com/images/berlin3_t.jpg', title: 'Berlin 3' }
+      ]
     });
     // -------------------- Navigation Scroll
     $(window).on("scroll", function () {
