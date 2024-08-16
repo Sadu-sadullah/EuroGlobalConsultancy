@@ -20,9 +20,9 @@
       
       // ### gallery content ### 
       items: [
-        { src: 'https://example.com/images/berlin1.jpg', srct: 'https://example.com/images/berlin1_t.jpg', title: 'Berlin 1' },
-        { src: 'https://example.com/images/berlin2.jpg', srct: 'https://example.com/images/berlin2_t.jpg', title: 'Berlin 2' },
-        { src: 'https://example.com/images/berlin3.jpg', srct: 'https://example.com/images/berlin3_t.jpg', title: 'Berlin 3' }
+        { src: './images/gallery/1.jpg', srct: './images/gallery/1.jpg', title: '' },
+        { src: './images/gallery/2.jpg', srct: './images/gallery/2.jpg', title: '' },
+        { src: './images/gallery/3.jpg', srct: './images/gallery/3.jpg', title: '' }
       ]
     });
     // -------------------- Navigation Scroll
