@@ -11,19 +11,10 @@
 
   $(document).on("ready", function () {
 
-    jQuery("#nanogallery2").nanogallery2({
-      // ### gallery settings ### 
-      thumbnailHeight: 200,
-      thumbnailWidth: 'auto',
-      // Remove itemsBaseURL as you're using absolute URLs
-      // itemsBaseURL: 'https://nanogallery2.nanostudio.org/samples/',
-      
-      // ### gallery content ### 
-      items: [
-        { src: 'https://spn-sta.spinny.com/blog/20220926162307/Maruti-Suzuki-Grand-Vitara.jpg?compress=true&quality=80&w=1200&dpr=1.3', srct: 'https://spn-sta.spinny.com/blog/20220926162307/Maruti-Suzuki-Grand-Vitara.jpg?compress=true&quality=80&w=1200&dpr=1.3', title: '' },
-        { src: './images/gallery/2.jpg', srct: './images/gallery/2.jpg', title: '' },
-        { src: './images/gallery/3.jpg', srct: './images/gallery/3.jpg', title: '' }
-      ]
+    $('.parent-container').magnificPopup({
+      delegate: 'a', // child items selector, by clicking on it popup will open
+      type: 'image'
+      // other options
     });
     // -------------------- Navigation Scroll
     $(window).on("scroll", function () {

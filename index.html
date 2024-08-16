@@ -22,9 +22,7 @@
   <!-- responsive style sheet -->
   <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 
-  <!-- nanogallery2 -->
-  <link rel="stylesheet" href="vendor/NanoGallery/nanogallery2.min.css">
-  <link rel="stylesheet" href="vendor/NanoGallery/nanogallery2.woff.min.css">
+  <link rel="stylesheet" href="vendor/MagnificPopUp/magnific-popup.css">
 
 </head>
 
@@ -826,10 +824,11 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1>gallery made with nanogallery2</h1>
-
-            <!-- ### position of the gallery ### -->
-            <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+            <div class="parent-container">
+              <a href="images/gallery/1.jpg"><img src="images/gallery/1.jpg" width="300px" height="auto"></a>
+              <a href="images/gallery/2.jpg"><img src="images/gallery/2.jpg" width="280px" height="auto"></a>
+              <a href="images/gallery/3.jpg"><img src="images/gallery/3.jpg" width="160px" height="auto"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -1008,7 +1007,8 @@
     <script src="vendor/jquery.countTo.js"></script>
     <!-- Fancybox -->
     <script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
-    <script src="vendor/NanoGallery/jquery.nanogallery2.min.js"></script>
+
+    <script src="vendor/MagnificPopUp/jquery.magnific-popup.js"></script>
     <!-- Theme js -->
     <script src="js/theme.js"></script>
   </div>
