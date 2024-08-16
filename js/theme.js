@@ -20,7 +20,7 @@
       
       // ### gallery content ### 
       items: [
-        { src: './images/gallery/1.jpg', srct: './images/gallery/1.jpg', title: '' },
+        { src: 'https://spn-sta.spinny.com/blog/20220926162307/Maruti-Suzuki-Grand-Vitara.jpg?compress=true&quality=80&w=1200&dpr=1.3', srct: 'https://spn-sta.spinny.com/blog/20220926162307/Maruti-Suzuki-Grand-Vitara.jpg?compress=true&quality=80&w=1200&dpr=1.3', title: '' },
         { src: './images/gallery/2.jpg', srct: './images/gallery/2.jpg', title: '' },
         { src: './images/gallery/3.jpg', srct: './images/gallery/3.jpg', title: '' }
       ]
