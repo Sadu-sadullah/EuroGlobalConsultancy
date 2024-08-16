@@ -22,7 +22,9 @@
   <!-- responsive style sheet -->
   <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/css/intlTelInput.css">
+  <!-- nanogallery2 -->
+  <link rel="stylesheet" href="vendor/NanoGallery/nanogallery2.min.css">
+  <link rel="stylesheet" href="vendor/NanoGallery/nanogallery2.woff.min.css">
 
 </head>
 
@@ -814,6 +816,26 @@
     </div>
     <!-- /.partner-section -->
 
+    <!-- 
+    ==========================================
+      Gallery 
+    ==========================================
+    -->
+
+    <section class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>gallery made with nanogallery2</h1>
+
+            <!-- ### position of the gallery ### -->
+            <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
     <!--
 			=====================================================
 				Footer
@@ -964,7 +986,6 @@
     </div>
 
     <!-- Optional JavaScript _____________________________  -->
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- jQuery -->
     <script src="vendor/jquery.2.2.3.min.js"></script>
@@ -987,39 +1008,9 @@
     <script src="vendor/jquery.countTo.js"></script>
     <!-- Fancybox -->
     <script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
-
+    <script src="vendor/NanoGallery/jquery.nanogallery2.min.js"></script>
     <!-- Theme js -->
     <script src="js/theme.js"></script>
-    <!-- Phone Number script -->
-    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/js/intlTelInput.min.js"></script>
-    <script>
-    const input = document.querySelector("#phone");
-    window.intlTelInput(input, {
-      initialCountry: "auto",
-      geoIpLookup: callback => {
-        fetch("https://ipapi.co/json")
-        .then(res => res.json())
-        .then(data => callback(data.country_code))
-        .catch(() => callback("ae"));
-      },
-      separateDialCode: true,
-      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/js/utils.js",
-    });
-	</script>
-    <!-- Sweetalert script -->
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Emailjs Script -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-	</script>
-	<script type="text/javascript">
-		(function () {
-			emailjs.init({
-				publicKey: "WBptFRoOFtCJ5zjcM",
-			});
-		})();
-	</script>
-    <!-- My JS -->
-    <script src="js/script.js"></script>
   </div>
   <!-- /.main-page-wrapper -->
 </body>
