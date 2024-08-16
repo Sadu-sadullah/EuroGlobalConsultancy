@@ -13,8 +13,8 @@
 
     jQuery("#nanogallery2").nanogallery2({
       // ### gallery settings ### 
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
+      thumbnailHeight: 200,
+      thumbnailWidth: 'auto',
       // Remove itemsBaseURL as you're using absolute URLs
       // itemsBaseURL: 'https://nanogallery2.nanostudio.org/samples/',
       
