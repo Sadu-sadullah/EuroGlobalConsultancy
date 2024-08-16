@@ -1,11 +1,3 @@
-// js Document
-
-// Created on   : 23/05/2018.
-// Theme Name   : Charles-Business-Consulting HTML Template.
-// Version      : 1.0.
-// Author       : @CreativeGigs.
-// Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-
 (function ($) {
   "use strict";
 
