@@ -1001,8 +1001,20 @@
     <script src="vendor/jquery.countTo.js"></script>
     <!-- Fancybox -->
     <script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
-
+    <!-- Magnific PopUp -->
     <script src="vendor/MagnificPopUp/jquery.magnific-popup.js"></script>
+    <script>
+      $(document).on("ready", function() {
+        $('.parent-container').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      });
+      $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true
+      });
+    }) 
+    </script>
     <!-- Theme js -->
     <script src="js/theme.js"></script>
   </div>

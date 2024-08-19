@@ -3,14 +3,7 @@
 
   $(document).on("ready", function () {
 
-    $('.parent-container').magnificPopup({
-      delegate: 'a',
-      type: 'image',
-    });
-    $('.open-popup-link').magnificPopup({
-      type:'inline',
-      midClick: true
-    });
+    
     // -------------------- Navigation Scroll
     $(window).on("scroll", function () {
       var sticky = $(".theme-menu-wrapper"),
