@@ -3399,3 +3399,11 @@ sl-carousel-item img {
 .map {
   margin-top: 50px;
 }
+
+.white-popup {
+  position: relative;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}

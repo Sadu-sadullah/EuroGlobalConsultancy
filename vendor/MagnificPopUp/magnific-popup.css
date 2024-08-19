@@ -135,6 +135,8 @@ button.mfp-close, button.mfp-arrow {
   z-index: 1046;
   box-shadow: none;
   touch-action: manipulation;
+  right: 70px;
+  top: -20px;
 }
 button::-moz-focus-inner {
   padding: 0;
@@ -165,7 +167,7 @@ button::-moz-focus-inner {
 }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333;
+  color: #ffffff;
 }
 
 .mfp-image-holder .mfp-close,

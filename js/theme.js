@@ -4,20 +4,12 @@
   $(document).on("ready", function () {
 
     $('.parent-container').magnificPopup({
-      delegate: 'a', // child items selector, by clicking on it popup will open
-      type: 'image'
-      // other options
+      delegate: 'a',
+      type: 'image',
     });
-    $('.popup-inline').magnificPopup({
-      type: 'inline',
-      preloader: false,
-      fixedContentPos: false,
-      callbacks: {
-        open: function() {
-          // Trigger video play on popup open
-          $('#my-video-player')[0].play();
-        }
-      }
+    $('.open-popup-link').magnificPopup({
+      type:'inline',
+      midClick: true
     });
     // -------------------- Navigation Scroll
     $(window).on("scroll", function () {
