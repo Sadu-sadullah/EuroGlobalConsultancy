@@ -3407,3 +3407,8 @@ sl-carousel-item img {
   max-width: 500px;
   margin: 20px auto;
 }
+
+.cc2 {
+  background-color: #093664;
+  color: white !important;
+}
