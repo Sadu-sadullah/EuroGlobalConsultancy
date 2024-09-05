@@ -966,6 +966,9 @@ body .theme-button-one:hover {
   position: relative;
   color: red;
 }
+.service-style-one .contact-text p {
+  margin-bottom: 0;
+}
 .service-style-one .contact-text a:hover {
   color: red;
 }
