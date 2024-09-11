@@ -131,7 +131,7 @@
         nav: false,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 500,
         smartSpeed: 1200,
         autoplayHoverPause: true,
         lazyLoad: true,
@@ -147,7 +147,7 @@
           },
           1300: {
             items: 4,
-            autoplay: false,
+            autoplay: true,
           },
         },
       });
