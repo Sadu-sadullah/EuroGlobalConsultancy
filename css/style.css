@@ -858,6 +858,7 @@ body .theme-button-one:hover {
 }
 .top-feature.fix-border .main-content {
   border-top: 4px solid transparent;
+  border-right: 2px dotted #001a57;
   border-bottom: none;
 }
 .top-feature.fix-border .main-content:hover {
@@ -3414,4 +3415,8 @@ sl-carousel-item img {
 .cc2 {
   background-color: #093664;
   color: white !important;
+}
+
+.top-features-slide {
+  border: 1px solid rgb(0, 26, 87);
 }
