@@ -3474,3 +3474,120 @@ sl-carousel-item img {
   background-color: #fff;
   margin: 0 auto;
 }
+
+.product-discription {
+  display: block;
+  position: relative;
+}
+
+.tabs-box {
+  position: relative;
+}
+
+.product-discription .tab-btn-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.product-discription .tab-btn-box:before {
+  position: absolute;
+  content: "";
+  background-color: #e1e8e4;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  top: 28px;
+}
+
+.product-discription .tab-btn-box .tab-btns li.active-btn {
+  color: white;
+  background-color: #1e2434;
+}
+
+.product-discription .tab-btn-box .tab-btns li {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #1e2434;
+  text-align: center;
+  padding: 14px 30px;
+  background-color: #fff;
+  border: 1px solid #e1e8e4;
+  cursor: pointer;
+  margin: 0 8.5px 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.why-choose-us-three .banner-box-three {
+  margin-top: 0!important;
+}
+
+.banner-box-three {
+  position: relative;
+  background: var(--gradient-2);
+  padding: 4px;
+}
+
+.banner-box-three .inner-box {
+  position: relative;
+  padding: 35px 50px 35px 35px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.features-list li {
+  position: relative;
+  padding-left: 25px;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  color: #fff;
+  list-style-type: disc;
+}
+
+.product-description{
+  background-color: #093664;
+  border-radius: 25px;
+}
+
+.services-details-content .feature-list .single-item {
+  position: relative;
+  display: block;
+  border: 1px solid #e1e8e4;
+  border-radius: 15px;
+  padding: 16px 30px 16px 53px;
+  margin-bottom: 20px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.services-details-content .feature-list .single-item .icon-box {
+  color: red;
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  font-size: 18px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.services-details-content .feature-list .single-item .title {
+  display: block;
+  margin: 0;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
