@@ -3591,3 +3591,35 @@ sl-carousel-item img {
   line-height: 32px;
   font-weight: 600;
 }
+
+.prereqs::before {
+  content: "";
+  height: 635px;
+  top: 76.1%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(9, 54, 100, 0.3);
+  position: absolute;
+}
+
+.prereqs .text {
+  color: black;
+}
+
+.prereqs .sec-title {
+  margin-bottom: 0;
+}
+
+.prereqs a {
+  margin-right: 40px;
+  margin-top: 23px;
+}
+
+.prereqs h2 {
+  text-align: center;
+}
+
+.prereqs .text-center {
+  padding-left: 0;
+  margin-top: 25px;
+}

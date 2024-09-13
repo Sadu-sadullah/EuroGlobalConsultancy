@@ -203,3 +203,96 @@
 @media (max-width: 380px) {
   .cunter-wrapper [class*="col-"] {max-width: 100%;flex: 0 0 100%;}
 }
+
+@media (min-width: 576px) {
+  .prereqs::before {
+    content: "";
+    height: 504px;
+    top: 78.2%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(9, 54, 100, 0.3);
+    position: absolute;
+}
+
+  .prereqs h2 {
+    text-align: center;
+  }
+
+  .prereqs .text-center {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+
+  .prereqs a {
+    margin-right: 40px;
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: 768px) {
+  .prereqs::before {
+    content: "";
+    height: 472px;
+    top: 75.9%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(9, 54, 100, 0.3);
+    position: absolute;
+  }
+
+  .prereqs h2 {
+    text-align: center;
+  }
+
+  .prereqs .text-center {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+
+  .prereqs a {
+    margin-left: 0;
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: 992px) {
+  .prereqs::before {
+    content: "";
+    height: 317px;
+    top: 78.2%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(9, 54, 100, 0.3);
+    position: absolute;
+  }
+
+  .prereqs .text-center {
+    padding-left: 20%;
+  }
+
+  .prereqs a {
+    margin-left: 10%;
+    margin-top: 23px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .prereqs::before {
+    content: "";
+    height: 291px;
+    top: 78.8%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(9, 54, 100, 0.3);
+    position: absolute;
+  }
+
+  .prereqs .text-center {
+    padding-left: 20%;
+  }
+
+  .prereqs a {
+    margin-left: 15%;
+  }
+}
