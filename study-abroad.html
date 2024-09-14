@@ -7171,6 +7171,55 @@
 			</div>
 		</section>
 
+		<section class="clients-section1" style="padding: 100px 0 100px;">
+			<div class="auto-container">
+				<div class="sec-title text-center mb-5">
+					<span class="sub-title">Universities</span>
+					<h2>We Collabrate With</h2>
+				</div>
+				<!-- Sponsors Outer -->
+				<div class="sponsors-outer my-5">
+					<!--clients carousel-->
+					<ul class="clients-carousel1 owl-carousel owl-theme">
+						<li class="slide-item"> <img src="images/logo_client/2.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/9.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/12.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/13.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/14.webp" alt="EuroGlobal client"></li>
+
+					</ul>
+				</div>
+				<div class="sponsors-outer my-5">
+					<!--clients carousel-->
+					<ul class="clients-carousel1 owl-carousel owl-theme">
+
+						<li class="slide-item"> <img src="images/logo_client/15.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/16.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/3.webp"  alt="EuroGlobal client"></li>
+
+
+						<li class="slide-item"> <img src="images/logo_client/20.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/5.webp"  alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/6.webp"  alt="EuroGlobal client"></li>
+
+					</ul>
+
+				</div>
+				<!-- Sponsors Outer -->
+				<div class="sponsors-outer my-5">
+					<!--clients carousel-->
+					<ul class="clients-carousel1 owl-carousel owl-theme">
+						<li class="slide-item"> <img src="images/logo_client/10.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/4.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/18.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/19.webp" alt="EuroGlobal client"></li>
+						<li class="slide-item"> <img src="images/logo_client/17.webp" alt="EuroGlobal client"></li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+
 		<section class="appointment_form">
 			<div class="container">
 				<div class="row">
@@ -7406,6 +7455,85 @@
                 return value;
             }
         </script>
+
+		<script>
+			if ($(".clients-carousel").length) {
+			$(".clients-carousel").owlCarousel({
+				loop: true,
+				margin: 10,
+				nav: false,
+				dots: false,
+				smartSpeed: 100,
+				autoplay: true,
+				navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+				responsive: {
+					0: { items: 1 },
+					480: { items: 2 },
+					600: { items: 3 },
+					768: { items: 4 },
+					1023: { items: 4 }
+				}
+			});
+		}
+
+		if ($(".clients-carousel1").length) {
+			$(".clients-carousel1").owlCarousel({
+				loop: true,
+				margin: 10,
+				nav: false,
+				dots: false,
+				smartSpeed: 100,
+				autoplay: true,
+				autoplayTimeout: 2000,
+				navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+				responsive: {
+					0: { items: 1 },
+					480: { items: 2 },
+					600: { items: 3 },
+					768: { items: 5 },
+					1023: { items: 5 }
+				}
+			});
+		}
+
+		if ($(".clients-carousel-two").length) {
+			$(".clients-carousel-two").owlCarousel({
+				loop: true,
+				margin: 0,
+				nav: false,
+				smartSpeed: 100,
+				autoplay: true,
+				navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+				responsive: {
+					0: { items: 1 },
+					480: { items: 2 },
+					600: { items: 3 },
+					991: { items: 4 },
+					1200: { items: 5 },
+					1400: { items: 6 }
+				}
+			});
+		}
+
+		if ($(".clients-carousel4").length) {
+			$(".clients-carousel4").owlCarousel({
+				loop: true,
+				margin: 200,
+				nav: false,
+				smartSpeed: 100,
+				autoplay: true,
+				navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+				responsive: {
+					0: { items: 1 },
+					480: { items: 2 },
+					600: { items: 3 },
+					768: { items: 3 },
+					1023: { items: 3 }
+				}
+			});
+		}
+
+		</script>
 
         <!-- Theme js -->
         <script src="js/theme.js"></script>
