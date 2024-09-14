@@ -4071,3 +4071,9 @@ section>.container, section>.container-fluid {
 .list-style-two {
   position: relative;
 }
+
+.banner-box-three {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 50px;
+}
