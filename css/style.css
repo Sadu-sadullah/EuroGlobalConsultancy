@@ -3852,7 +3852,7 @@ section>.container, section>.container-fluid {
 }
 
 .list-style-two li i {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   color: red;
@@ -4066,4 +4066,8 @@ section>.container, section>.container-fluid {
   margin-left: 5px;
   border-radius: 30px;
   margin-bottom: 15px;
+}
+
+.list-style-two {
+  position: relative;
 }
