@@ -234,7 +234,7 @@
         dots: false,
         autoplay: true,
         margin: 30,
-        autoplayTimeout: 3500,
+        autoplayTimeout: 1500,
         smartSpeed: 1200,
         autoplayHoverPause: true,
         lazyLoad: true,
